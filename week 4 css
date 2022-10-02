@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    background-image: linear-gradient(90deg, white 0%, rgb(57, 107, 160));
+}
+
+.mainTable {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+
+Footer
+© 2022 GitHub, Inc.
