@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--html tage for assignment-->
+<html>
+    <!--head tag for assignment-->
+
+<head>
+    <!--the title goes at the title bar-->
+    <title>
+        xavier scott UAT Space Page
+    </title>
+    <script>
+        var alertText = "Test of the alert function";
+        //alert function as required by assignment
+        //alert(alertText);
+    </script>
+    <script src="code.js"></script>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<!--body tage as required by assignment-->
+<body>
+    <!--logo for UATSpace-->
+    <img src="UATspaceLogo-1.jpg">
+    <!--fulfills header requirement-->
+    <h1>H1 Sample text</h1>
+    <font face="arial" size="20px" color="#FF7A59">Week 2-1</font>
+    <!--paragraph tag for the assignment-->
+    <p>
+        This is a test of the paragraph tag. 
+        It is usually meant for more than one line of text. 
+        That is why they call it a paragraph tag.
+    </p>
+    <script>
+        //one line comment
+        //created a textvalue comment
+        var textValue = "Test of the document.write() function";
+        //use that textValue comment
+        document.write(textValue);
+
+        /*multiline 
+        comment*/ 
+    </script>
+    <br>
+    <br>
+    Time left before launch:<br>
+    <div id="countdownDisplay">Launch not initiadtied</div>
+    <br>
+    <br>
+    <!--button requirements from assignment-->
+    <button onclick="blastoffTimerV2();">Start</button>
+    <button>Stop</button>
+    <br>
+    <br>
+    <h1>Craps Game!!!</h1>
+    <h2> please play! </h2>
+    Die 1 result: <div id="die1Res"> Press Play Craps to roll dice</div><br>
+    Die 2 Result: <div id="die2Res">Press Play Craps to roll dice</div><br>
+    <div id="crapsRes"> Game Results</div><br>
+    <br>
+    <button onclick="playCraps();"> Play Craps</button>
+    <br>
+    <br>
+    Wins<br>
+    <div id="winRes">get some wins</div><br>
+    Losses<br>
+    <div id="loseRes">get some losses</div><br>
+    Tie<br>
+    <div id="tieRes">get some tie</div><br>
+</body>
+
+</html>
